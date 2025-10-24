@@ -1,2 +1,3 @@
 # -c-programming
-This my first programs
+This is my first programs
+Author - Aditya Shejwal
