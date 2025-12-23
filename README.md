@@ -5,7 +5,7 @@ This repository contains C programs written for learning, practice, and strength
 It is suitable for beginners and students who want to build a strong foundation in C programming.
 
 ## 👤 Author
--*Aditya Shejwal*
+- *Aditya Shejwal*
 
 ## 📌 Topics Covered
 - C Basics
