@@ -5,13 +5,26 @@ void Pattern(int iRow, int iCol)
    int i = 0;
    int j = 0;
 
-   for(i = 1; i<= iRow; i++)
+   for(i = 1; i<=iRow; i++)
    {
-      for(j = 1; j<= iCol; j++)
-      {
-        printf("*\t");
-      }
-      printf("\n");
+      
+    for(j = 1; j<=iCol; j++)
+    {
+        if(i == j)
+        {
+            printf("*\t",i);
+        }
+        else if(i>=j)
+        {
+            printf("*\t");
+
+        }
+        else
+        {
+            printf("#\t");
+        }
+    }
+    printf("\n");
    }
 }
 
@@ -29,3 +42,4 @@ int main()
 
     return 0;
 }
+
