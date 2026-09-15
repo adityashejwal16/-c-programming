@@ -1,36 +1,21 @@
-#include <stdio.h>
-#include <stdbool.h>
+#include<stdio.h>
 
-bool CheckGreater(int iNo)
+void Display(int iNo)
 {
-    if (iNo >= 100)
+    while(iNo>0`)
     {
-        return true;
-    }
-    else
-    {
-        return false;
+        printf("*");
+        iNo--;
     }
 }
-
 int main()
 {
-    int iValue = 0;
-    bool bRet = false;
+    int iValue=0;
+    printf("Enter number");
 
-    printf("Please enter number: ");
-    scanf("%d", &iValue);
+    scanf("%d",&iValue);
 
-    bRet = CheckGreater(iValue);
-
-    if (bRet == true)
-    {
-        printf("Greater\n");
-    }
-    else
-    {
-        printf("Smaller\n");
-    }
+    Display(iValue);
 
     return 0;
 }
